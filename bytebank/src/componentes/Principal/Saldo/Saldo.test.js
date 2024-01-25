@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import Saldo from './index';
 
-describe('Componente <Saldo/>', () => {
+describe('Componente <Saldo />', () => {
   test('Deve renderizar o saldo com valor monetário', () => {
     render(<Saldo saldo={1000} />);
 

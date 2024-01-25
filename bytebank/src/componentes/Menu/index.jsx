@@ -1,9 +1,9 @@
 import React from 'react';
-import estilos from './Menu.module.css';
 import { Link } from 'react-router-dom';
+import estilos from './Menu.module.css';
 
 const listaMenu = [
-   { link: 'Início', href: '/' },
+  { link: 'Início', href: '/' },
   { link: 'Cartões', href: '/cartoes' },
   { link: 'Serviços', href: '/servicos' },
   { link: 'Investimentos', href: '/investimentos' },
